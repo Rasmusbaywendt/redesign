@@ -9,6 +9,13 @@ img {
     }
 }
 
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-image: url(billeder/baggrund.png);
     margin: 0;
@@ -20,6 +27,39 @@ h1 {
     font-size: 5rem;
     margin: 0;
     color: #fef502;
+}
+
+h2 {
+    text-align: center;
+    font-family: fleisch-wolf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #e013a0;
+}
+
+h3 {
+    text-align: center;
+    font-family: fleisch-wolf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #e013a0;
+}
+
+h4 {
+    text-align: center;
+    font-family: fleisch-wolf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #e013a0;
+}
+
+p {
+    font-family: bignoodletitlingregular, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
 }
 
 #billede1 {
@@ -65,30 +105,11 @@ h1 {
     width: 50%;
 }
 
-#billede7 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
 
-#billede8 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-}
-
-#billede9 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 
 .flyve_dino {
-    width: 8vw;
-    height: 10vw;
+    width: 25vw;
+    height: 20vw;
     background-size: cover;
     position: relative;
     top: 7%;
@@ -96,8 +117,8 @@ h1 {
 }
 
 .flyvende_drage {
-    width: 8vw;
-    height: 10vw;
+    width: 16vw;
+    height: 20vw;
     background-size: cover;
     position: relative;
     top: 7%;
