@@ -27,9 +27,14 @@
     background-size: cover;
     position: absolute;
 
+<<<<<<< HEAD
 }
 
 .Logo {
+=======
+.logo {
+
+>>>>>>> origin/master
     width: 11vw;
     height: 10vw;
     background-size: cover;
@@ -166,7 +171,7 @@ h1 {
     left: 77%;
 }
 
-.HeMan {
+.heman {
     width: 6vw;
     height: 10vw;
     background-size: cover;
@@ -175,7 +180,7 @@ h1 {
     left: 44%;
 }
 
-.PacMan {
+.pacman {
     width: 8vw;
     height: 4vw;
     background-size: cover;
