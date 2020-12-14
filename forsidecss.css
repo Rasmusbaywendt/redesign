@@ -5,7 +5,7 @@ body {
 
 #kolonefar{
     display: grid;
-    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-columns: 3fr 2fr 3fr;
 
 }
 
@@ -14,5 +14,5 @@ img{
 }
 
 .Logo_forside{
-    padding-bottom: 10vw;
+    padding-bottom: 5vw;
 }
