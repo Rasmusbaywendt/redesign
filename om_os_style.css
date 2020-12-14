@@ -1,0 +1,105 @@
+img {
+    width: 100%;
+}
+
+@media only screen and (min-width:600px) {
+    section {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+body {
+    background-image: url(billeder/baggrund.png);
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: bignoodletitlingregular, sans-serif;
+    font-size: 5rem;
+    margin: 0;
+    color: #fef502;
+}
+
+#billede1 {
+    display: block;
+    margin-left: inherit;
+    margin-right: auto;
+    width: 14%;
+}
+
+
+#billede2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#billede3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede7 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#billede8 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#billede9 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.flyve_dino {
+    width: 8vw;
+    height: 10vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 32%;
+}
+
+.flyvende_drage {
+    width: 8vw;
+    height: 10vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 32%;
+}
