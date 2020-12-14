@@ -20,21 +20,13 @@
     background-attachment: fixed;
 }
 
-
 .Logo_forside{
     width: 22vw;
     height: 20vw;
     background-size: cover;
     position: absolute;
-
-<<<<<<< HEAD
 }
-
 .Logo {
-=======
-.logo {
-
->>>>>>> origin/master
     width: 11vw;
     height: 10vw;
     background-size: cover;
