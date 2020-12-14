@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
@@ -24,9 +24,10 @@ ul{
     text-align: center;
 }
 
-a{
+a {
     width: 100%;
 }
+
 img {
     width: 100%;
     position: relative;
@@ -37,7 +38,7 @@ img {
 }
 
 nav[role="main"] a {
-    font-family: bignoodletitlingregular, sans-serif;
+    font-family: 'VT323', monospace;
     position: relative;
     text-decoration-line: none;
     float: none;
@@ -46,10 +47,24 @@ nav[role="main"] a {
     color: #ffffff;
     text-shadow: 1px 1px 6px #ffffff;
     line-height: 12vw;
+    text-transform: uppercase;
+}
+
+.link a:hover{font-family: 'VT323', monospace;
+    position: relative;
+    text-decoration-line: none;
+    float: none;
+    justify-content: center;
+    font-size: 2vw;
+    color: #ffffff;
+    text-shadow: 1px 1px 6px #e60ec5;
+    line-height: 12vw;
+    text-transform: uppercase;
+
 }
 
 nav[role="sub"] a {
-    font-family: bignoodletitlingregular, sans-serif;
+    font-family: 'VT323', monospace;
     position: relative;
     text-decoration-line: none;
     float: none;
@@ -58,6 +73,7 @@ nav[role="sub"] a {
     color: #e013a0;
     text-shadow: 2px 2px 1px black;
     font-weight: 1;
+    text-transform: uppercase;
 }
 
 nav[role="sub"] {
@@ -120,7 +136,7 @@ div.kolone2 .whiteobjekt {
 
 
 @media (max-width 600px) {
-    img{
+    img {
         width: 100%;
     }
 
