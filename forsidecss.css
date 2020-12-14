@@ -1,34 +1,34 @@
+
+
 body {
     background-image: url(billeder/baggrund.png);
     margin: 0;
+    padding: 0;
 }
 
 #kolonefar {
     display: grid;
-    grid-template-columns: 2fr 1.5fr 2fr;
+    grid-template-columns: 1fr 0.5fr 1fr;
 
 }
 
 img {
-    width: 100%;
+    max-width: 20rem;
 }
 
 .Logo_forside {
-    padding-bottom: 5vw;
+    padding-bottom: 35px;
 }
-
-.kolone3 {
-    text-align: right;
-}
-
 
 nav a {
     font-family: bignoodletitlingregular, sans-serif;
+    position: relative;
     text-decoration-line: none;
     display: flex;
     float: none;
     justify-content: center;
-    font-size: 2vw;
+    font-size: 2.5rem;
+    line-height: 10rem;
 }
 
 @font-face {
@@ -38,6 +38,6 @@ nav a {
     font-style: normal;
 }
 
-h3{
+h3 {
     font-family: bignoodletitlingregular, sans-serif;
 }
