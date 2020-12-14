@@ -1,5 +1,3 @@
-
-
 body {
     background-image: url(billeder/baggrund.png);
     margin: 0;
@@ -33,15 +31,32 @@ nav[role="main"] a {
     text-shadow: 1px 1px 2px white;
 }
 
-nav[role="sub"] a{
+nav[role="sub"] a {
     font-family: bignoodletitlingregular, sans-serif;
     position: relative;
     text-decoration-line: none;
     float: none;
     justify-content: center;
     font-size: 2.5rem;
-    color: black;
+}
+
+nav[role="sub"] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+h2{
+    font-family: bignoodletitlingregular, sans-serif;
+    position: relative;
+    text-decoration-line: none;
+    display: flex;
+    float: none;
+    justify-content: center;
+    font-size: 2.5rem;
     text-shadow: 1px 1px 2px white;
+    font-weight: 1;
+
 }
 
 
