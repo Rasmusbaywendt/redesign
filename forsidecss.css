@@ -55,8 +55,8 @@ nav[role="main"] a {
     text-decoration-line: none;
     float: none;
     justify-content: center;
-    font-size: 2vw;
-    color: #ffffff;
+    font-size: 2.3vw;
+    color: #e6e617;
     text-shadow: 1px 1px 6px #e60ec5;
     line-height: 12vw;
     text-transform: uppercase;
@@ -97,7 +97,8 @@ h2 {
 
 div.kolone2 .logo {
     display: block;
-    width: 25%;
+    margin-top: 0.5vw;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     line-height: 5px;
@@ -112,14 +113,14 @@ div.kolone2 .frisoer {
 
 div.kolone2 .choose {
     display: block;
-    width: 40%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 div.kolone2 .whiteobjekt {
     display: block;
-    width: 30%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
