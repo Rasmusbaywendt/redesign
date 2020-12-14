@@ -30,10 +30,13 @@
 }
 
 .Chooseyourdestiny{
-    width: 50%;
-    height: 30%;
+     width: 900px;
+    height: 129.56px;
     background-size: cover;
     position: absolute;
+    top: 30%;
+    left: 20%;
+
 }
 
 .Logo {
