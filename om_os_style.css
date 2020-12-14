@@ -1,0 +1,126 @@
+img {
+    width: 100%;
+}
+
+@media only screen and (min-width:600px) {
+    section {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(billeder/baggrund.png);
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: bignoodletitlingregular, sans-serif;
+    font-size: 5rem;
+    margin: 0;
+    color: #fef502;
+}
+
+h2 {
+    text-align: center;
+    font-family: fleisch-wolf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #e013a0;
+}
+
+h3 {
+    text-align: center;
+    font-family: fleisch-wolf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #e013a0;
+}
+
+h4 {
+    text-align: center;
+    font-family: fleisch-wolf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #e013a0;
+}
+
+p {
+    font-family: bignoodletitlingregular, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+#billede1 {
+    display: block;
+    margin-left: inherit;
+    margin-right: auto;
+    width: 14%;
+}
+
+
+#billede2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#billede3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+.flyve_dino {
+    width: 25vw;
+    height: 20vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 32%;
+}
+
+.flyvende_drage {
+    width: 16vw;
+    height: 20vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 32%;
+}
