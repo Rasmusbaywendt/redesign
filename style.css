@@ -21,10 +21,15 @@
 }
 
 
+.Logo_forside{
+    width: 11vw;
+    height: 10vw;
+    background-size: cover;
+    position: absolute;
+
+}
 
 .Logo {
-
-    background-image: url(settings_1.svg);
     width: 11vw;
     height: 10vw;
     background-size: cover;
