@@ -3,16 +3,29 @@ body {
     margin: 0;
 }
 
-#kolonefar{
+#kolonefar {
     display: grid;
-    grid-template-columns: 3fr 2fr 3fr;
+    grid-template-columns: 2fr 1.5fr 2fr;
 
 }
 
-img{
+img {
     width: 100%;
 }
 
-.Logo_forside{
+.Logo_forside {
     padding-bottom: 5vw;
+}
+
+.kolone3 {
+    text-align: right;
+}
+
+nav a{
+    text-decoration-line: none;
+    display: flex;
+    float: none;
+    justify-content: center;
+
+
 }
