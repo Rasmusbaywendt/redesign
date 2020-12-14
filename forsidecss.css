@@ -1,18 +1,43 @@
+
+
 body {
     background-image: url(billeder/baggrund.png);
     margin: 0;
+    padding: 0;
 }
 
-#kolonefar{
+#kolonefar {
     display: grid;
-    grid-template-columns: 3fr 2fr 3fr;
+    grid-template-columns: 1fr 0.5fr 1fr;
 
 }
 
-img{
-    width: 100%;
+img {
+    max-width: 20rem;
 }
 
-.Logo_forside{
-    padding-bottom: 5vw;
+.Logo_forside {
+    padding-bottom: 35px;
+}
+
+nav a {
+    font-family: bignoodletitlingregular, sans-serif;
+    position: relative;
+    text-decoration-line: none;
+    display: flex;
+    float: none;
+    justify-content: center;
+    font-size: 2.5rem;
+    line-height: 10rem;
+}
+
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3 {
+    font-family: bignoodletitlingregular, sans-serif;
 }
