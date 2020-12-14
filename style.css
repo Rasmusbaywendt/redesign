@@ -25,7 +25,19 @@
     height: 20vw;
     background-size: cover;
     position: absolute;
+    top: 0%;
+    left: 40%;
 }
+
+.Chooseyourdestiny{
+    width: 22vw;
+    height: 20vw;
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+}
+
 .Logo {
     width: 11vw;
     height: 10vw;
