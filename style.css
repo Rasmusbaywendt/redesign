@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 100%;
+    height: 170%;
+    background-attachment: fixed;
+}
+
+
+
+.Logo {
+
+    background-image: url(settings_1.svg);
+    width: 11vw;
+    height: 10vw;
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    @font-face: "DM-80Light.otf";
+    position: relative;
+
+}
+
+.Galleri {
+
+    width: 11vw;
+    height: 10vw;
+    background-size: cover;
+    position: absolute;
+}
+
+.actionfigur {
+    width: 16vw;
+    height: 19vw;
+    background-size: cover;
+    position: absolute;
+    top: 24%;
+    left: 36%;
+}
+
+.frisoer {
+    width: 15vw;
+    height: 17vw;
+    background-size: cover;
+    position: absolute;
+    top: 27%;
+    left: 52%;
+    ;
+}
+
+.interioer {
+    width: 32vw;
+    height: 21vw;
+    background-size: cover;
+    position: absolute;
+    top: 91.2%;
+    left: 67.5%;
+}
+
+.interioer2 {
+    width: 32vw;
+    height: 21vw;
+    background-size: cover;
+    position: absolute;
+    top: 37%;
+    left: 67%;
+}
+
+.maskine {
+    width: 32vw;
+    height: 21vw;
+    background-size: cover;
+    position: absolute;
+    top: 77%;
+    left: 1%;
+}
+
+.kunder {
+    width: 30vw;
+    height: 20vw;
+    background-size: cover;
+    position: absolute;
+    top: 64%;
+    left: 36%;
+}
+
+.mars-maskine {
+    width: 32vw;
+    height: 21vw;
+    background-size: cover;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+
+.bobbytaler {
+    width: 32vw;
+    height: 21vw;
+    background-size: cover;
+    position: absolute;
+    top: 106%;
+    left: 31%;
+
+}
+
+
+.modelklippes {
+    width: 32vw;
+    height: 21vw;
+    background-size: cover;
+    position: absolute;
+    top: 123%;
+    left: 3%;
+}
+
+.butikogklip {
+    width: 32vw;
+    height: 21vw;
+    background-size: cover;
+    position: absolute;
+    top: 127%;
+    left: 59%;
+}
+
+.fire {
+    width: 32vw;
+    height: 3vw;
+    background-size: cover;
+    position: absolute;
+    top: 82%;
+    left: 67%;
+}
+
+.drage {
+    width: 20vw;
+    height: 10vw;
+    background-size: cover;
+    position: absolute;
+    top: 7%;
+    left: 77%;
+}
+
+.HeMan {
+    width: 6vw;
+    height: 10vw;
+    background-size: cover;
+    position: absolute;
+    top: 149%;
+    left: 44%;
+}
+
+.PacMan {
+    width: 8vw;
+    height: 4vw;
+    background-size: cover;
+    position: absolute;
+    top: 11%;
+    left: 20%;
+}

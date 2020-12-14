@@ -1,3 +1,12 @@
+img {
+    width: 100%;
+}
+@media only screen and (min-width:600px) {
+    section {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
 body {
     background-image: url(billeder/baggrund.png);
     margin: 0;
@@ -79,4 +88,22 @@ p {
     src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+.lyn1 {
+    width: 8vw;
+    height: 10vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 32%;
+}
+.lyn2 {
+    width: 8vw;
+    height: 10vw;
+    background-size: cover;
+    position: absolute;
+    top: 7%;
+    left: 32%;
+}
+
 }
