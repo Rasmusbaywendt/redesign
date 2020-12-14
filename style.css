@@ -25,9 +25,21 @@
     height: 20vw;
     background-size: cover;
     position: absolute;
+    top: 0%;
+    left: 40%;
 }
 
 .logo {
+
+    width: 900px;
+    height: 129.56px;
+    background-size: cover;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.Logo {
     width: 11vw;
     height: 10vw;
     background-size: cover;
@@ -36,21 +48,13 @@
 }
 
 
-h1 {
+.h1 {
     text-align: center;
     margin-top: 30px;
     font-size: 40px;
     @font-face: "DM-80Light.otf";
     position: relative;
 
-}
-
-.Galleri {
-
-    width: 11vw;
-    height: 10vw;
-    background-size: cover;
-    position: absolute;
 }
 
 .actionfigur {

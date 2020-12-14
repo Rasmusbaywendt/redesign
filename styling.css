@@ -1,0 +1,109 @@
+img {
+    width: 100%;
+}
+@media only screen and (min-width:600px) {
+    section {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+body {
+    background-image: url(billeder/baggrund.png);
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-family: bignoodletitlingregular, sans-serif;
+    font-size: 10rem;
+    margin: 0;
+    color: #fef502;
+}
+h2 {
+    text-align: center;
+    font-family: fleisch-wolf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #e013a0;
+}
+#first_h2 {
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+}
+#first_h2 h2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#billede1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+#billede2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+#first_section {
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+}
+#first_section p {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#second_section {
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+}
+#second_section p {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#second_h2 {
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+}
+#second_h2 h2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+#third_section {
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+}
+#third_section p {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+p {
+    font-family: bignoodletitlingregular, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.lyn1 {
+    width: 8vw;
+    height: 10vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 32%;
+}
+.lyn2 {
+    width: 8vw;
+    height: 10vw;
+    background-size: cover;
+    position: absolute;
+    top: 7%;
+    left: 32%;
+}
+
+}
