@@ -56,13 +56,25 @@ nav[role="main"] a {
     float: none;
     justify-content: center;
     font-size: 2.3vw;
-    color: #ef464c;
-    text-shadow: 1px 1px 6px #e60ec5;
+    color: #e60ec5;
+    text-shadow: 1px 1px 6px #e6e617;
     line-height: 12vw;
     text-transform: uppercase;
 
 }
 
+.nav[role="sub"] a:hover{
+    font-family: 'VT323', monospace;
+    position: relative;
+    text-decoration-line: none;
+    float: none;
+    justify-content: center;
+    font-size: 5vw;
+    color: #e6e617;
+    text-shadow: 2px 2px 1px #e013a0;
+    font-weight: 1;
+    text-transform: uppercase;
+}
 
 nav[role="sub"] a {
     font-family: 'VT323', monospace;
@@ -70,9 +82,9 @@ nav[role="sub"] a {
     text-decoration-line: none;
     float: none;
     justify-content: center;
-    font-size: 3vw;
+    font-size: 4vw;
     color: #e013a0;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 1px #e6e617;
     font-weight: 1;
     text-transform: uppercase;
 }
