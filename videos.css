@@ -1,0 +1,44 @@
+body {
+    background-image: url(backgroundblue.png);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav[role="third"] a {
+    font-family: 'VT323', monospace;
+    color: #e6e617;
+    text-shadow: 2px 2px 1px #e013a0;
+    font-weight: 1;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+nav[role="third"] a:hover {
+    font-family: 'VT323', monospace;
+    color: #e6e617;
+    text-shadow: 2px 2px 1px #e013a0;
+    font-weight: 1;
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+footer{
+    text-align: center;
+    word-spacing: 1vw;
+    margin-top: -2vw;
+}
+
+
+
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
