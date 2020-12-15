@@ -7,6 +7,7 @@
     }
     .kolone2 {
         margin-top: 3vw;
+        margin-bottom: 10vw;
     }
 
     .kolone3 {
@@ -82,7 +83,7 @@
     }
 
     .move ul {
-        position: fixed;
+        position: absolute;
         width: 100%;
         height: 100vh;
         background: #e6e617;
@@ -90,6 +91,7 @@
         left: -100%;
         text-align: center;
         transition: all .5s;
+
     }
 
     nav ul li {
@@ -126,7 +128,7 @@
         width: 50%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 20vw;
+        margin-bottom: 15vw;
     }
 
     div.kolone2 .choose {
@@ -159,8 +161,9 @@
     footer {
         word-spacing: 1vw;
         text-align: center;
-        bottom: auto;
-        margin-top: 25vw;
+        right: 0;
+        left: 0;
+        bottom: 0;
 
     }
 
@@ -237,7 +240,6 @@
 
     img {
         width: 100%;
-        position: relative;
     }
 
     .logo {
@@ -246,7 +248,6 @@
 
     nav[role="main"] a {
         font-family: 'VT323', monospace;
-        position: relative;
         text-decoration-line: none;
         float: none;
         justify-content: center;
