@@ -1,5 +1,5 @@
 body {
-    background-image: url(Background1.png);
+    background-image: url(backgroundblue.png);
     margin: 0;
     padding: 0;
 }
@@ -44,8 +44,8 @@ nav[role="main"] a {
     float: none;
     justify-content: center;
     font-size: 2vw;
-    color: #ffffff;
-    text-shadow: 1px 1px 6px #ffffff;
+    color: #e6e617;
+    text-shadow: 1px 1px 6px #e60ec5;
     line-height: 12vw;
     text-transform: uppercase;
 }
@@ -56,12 +56,13 @@ nav[role="main"] a {
     float: none;
     justify-content: center;
     font-size: 2.3vw;
-    color: #e6e617;
+    color: #ef464c;
     text-shadow: 1px 1px 6px #e60ec5;
     line-height: 12vw;
     text-transform: uppercase;
 
 }
+
 
 nav[role="sub"] a {
     font-family: 'VT323', monospace;
@@ -132,9 +133,21 @@ div.kolone2 .whiteobjekt {
     font-style: normal;
 }
 
+.blink{
+    animation-name: blinkingText_kf;
+    animation animation-duration: 1s;
+    animation-iteration-count: infinite
+    }
 
+@keyframes blinkingText_kf{
+    0%{
+        opacity: 0
+    }
+    100%{
+        opacity: 1
+    }
 
-
+}
 
 @media (max-width 600px) {
     img {
