@@ -70,7 +70,7 @@ h3 {
 
 h4 {
     text-align: center;
-    font-family: fleisch-wolf, sans-serif;
+    font-family: bignoodletitlingregular, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
@@ -126,7 +126,18 @@ p {
     width: 50%;
 }
 
+.colparent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
 
+.colparent2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
 
 .flyve_dino {
     width: 25vw;
@@ -138,6 +149,15 @@ p {
 }
 
 .flyvende_drage {
+    width: 16vw;
+    height: 20vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 32%;
+}
+
+.fire {
     width: 16vw;
     height: 20vw;
     background-size: cover;

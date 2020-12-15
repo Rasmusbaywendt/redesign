@@ -76,3 +76,10 @@ p {
     font-size: 1.5rem;
     line-height: 1.4;
 }
+
+#billede1 {
+    display: block;
+    margin-left: inherit;
+    margin-right: auto;
+    width: 14%;
+}
