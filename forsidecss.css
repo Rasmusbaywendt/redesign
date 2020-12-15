@@ -1,0 +1,156 @@
+body {
+    background-image: url(Background1.png);
+    margin: 0;
+    padding: 0;
+}
+
+#kolonefar {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+}
+
+.link li {
+    display: block;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.link a {
+    text-align: center;
+}
+
+a {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    padding-bottom: 15px;
+}
+
+nav[role="main"] a {
+    font-family: 'VT323', monospace;
+    position: relative;
+    text-decoration-line: none;
+    float: none;
+    justify-content: center;
+    font-size: 2vw;
+    color: #ffffff;
+    text-shadow: 1px 1px 6px #ffffff;
+    line-height: 12vw;
+    text-transform: uppercase;
+}
+
+.link a:hover{font-family: 'VT323', monospace;
+    position: relative;
+    text-decoration-line: none;
+    float: none;
+    justify-content: center;
+    font-size: 2.3vw;
+    color: #e6e617;
+    text-shadow: 1px 1px 6px #e60ec5;
+    line-height: 12vw;
+    text-transform: uppercase;
+
+}
+
+nav[role="sub"] a {
+    font-family: 'VT323', monospace;
+    position: relative;
+    text-decoration-line: none;
+    float: none;
+    justify-content: center;
+    font-size: 3vw;
+    color: #e013a0;
+    text-shadow: 2px 2px 1px black;
+    font-weight: 1;
+    text-transform: uppercase;
+}
+
+nav[role="sub"] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'VT323', monospace;
+    position: relative;
+    text-decoration-line: none;
+    display: flex;
+    float: none;
+    justify-content: center;
+    font-size: 3vw;
+    color: #e013a0;
+    text-shadow: 2px 2px 1px black;
+    font-weight: 1;
+}
+
+div.kolone2 .logo {
+    display: block;
+    margin-top: 0.5vw;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+}
+
+div.kolone2 .frisoer {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.kolone2 .choose {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.kolone2 .whiteobjekt {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: 'bignoodletitlingregular';
+    src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.blink{
+    animation-name: blinkingText_kf;
+    animation animation-duration: 1s;
+    animation-iteration-count: infinite
+    }
+
+@keyframes blinkingText_kf{
+    0%{
+        opacity: 0
+    }
+    100%{
+        opacity: 1
+    }
+
+}
+
+@media (max-width 600px) {
+    img {
+        width: 100%;
+    }
+
+}

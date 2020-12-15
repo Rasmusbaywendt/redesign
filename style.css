@@ -1,3 +1,130 @@
+img {
+    width: 100%;
+}
+
+@media only screen and (min-width:600px) {
+    section {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+body {
+    background-image: url(Layer%203%20copy%2014.png);
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: bignoodletitlingregular, sans-serif;
+    font-size: 5rem;
+    margin: 0;
+    color: #fef502;
+}
+
+#billede1 {
+    display: block;
+    margin-left: inherit;
+    margin-right: auto;
+    width: 14%;
+}
+
+
+#billede2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#billede3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede7 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#billede8 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#billede9 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede10 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede11 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede12 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#billede13 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+#billede14 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/*
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +137,7 @@
 }
 
 
+
 .background {
     position: absolute;
     top: 0;
@@ -18,25 +146,6 @@
     width: 100%;
     height: 170%;
     background-attachment: fixed;
-}
-
-.Logo_forside{
-    width: 22vw;
-    height: 20vw;
-    background-size: cover;
-    position: absolute;
-    top: 0%;
-    left: 40%;
-}
-
-.Chooseyourdestiny{
-     width: 900px;
-    height: 129.56px;
-    background-size: cover;
-    position: absolute;
-    top: 30%;
-    left: 20%;
-
 }
 
 .Logo {
@@ -48,21 +157,13 @@
 }
 
 
-h1 {
+.h1 {
     text-align: center;
     margin-top: 30px;
     font-size: 40px;
     @font-face: "DM-80Light.otf";
     position: relative;
 
-}
-
-.Galleri {
-
-    width: 11vw;
-    height: 10vw;
-    background-size: cover;
-    position: absolute;
 }
 
 .actionfigur {
@@ -193,3 +294,4 @@ h1 {
     top: 11%;
     left: 20%;
 }
+*/
