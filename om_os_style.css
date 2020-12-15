@@ -42,7 +42,7 @@ h2 {
     display: flex;
     float: none;
     justify-content: center;
-    font-size: 10vw;
+    font-size: 7vw;
     color: #e013a0;
     text-shadow: 2px 2px 1px #ffffff;
     font-weight: 1;
@@ -135,7 +135,14 @@ p {
 .colparent2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    margin: auto;
+}
+
+.colparent3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
     margin: auto;
 }
 
