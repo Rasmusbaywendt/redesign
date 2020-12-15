@@ -13,6 +13,9 @@ body {
     box-sizing: border-box;
 }
 
+.videoer{
+    display: grid; 1fr 1fr
+}
 #videologo img{
     width: 75px;
     margin-top: 12px;
