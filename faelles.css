@@ -1,4 +1,4 @@
-    /*NAVBAR HERFRA*/
+/*NAVBAR HERFRA*/
 
 body {
     font-family: 'VT323', monospace;
@@ -14,6 +14,17 @@ h1 {
     padding-top: 90px;
     padding-bottom: 20px;
     text-transform: uppercase;
+}
+p {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #d2ff3b;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-shadow: 2px 2px 1px #000000;
 }
 
 }
@@ -117,5 +128,6 @@ nav[role="navbar"] a:hover {
     #check:checked ~ ul {
         left: 0;
     }
-    }
-    /*NAVBAR SLUTTER HER*/
+}
+
+/*NAVBAR SLUTTER HER*/
