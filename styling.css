@@ -1,10 +1,14 @@
+img {
+    width: 100%;
+    position: relative;
+}
 @media only screen and (min-width:600px) {
     section {
         max-width: 1200px;
         margin: auto;
     }
-    <<<<<<< HEAD body {
-        background-image: url(billeder/baggrund.png);
+    body {
+        background-image: url(backgroundblue.png);
         margin: 0;
     }
     h1 {
@@ -32,33 +36,33 @@
     }
     #billede1 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 61%;
+        grid-template-columns: 1fr 8fr 1fr;
+        margin: auto;
     }
     .gameplay {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
+        display: block;
+        margin-top: 0.5vw;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
         grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 3;
+        grid-column-end: 3;
     }
     #billede2 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 31%;
+        grid-template-columns: 1fr 8fr 1fr;
+        margin: auto;
     }
     .cover {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 4;
+        display: block;
+        margin-top: 0.5vw;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
     #first_section {
         display: grid;
@@ -105,11 +109,13 @@
     }
     =======
 }
-//*
+
+/*
 body {
     background-image: url(billeder/baggrund.png);
     margin: 0;
 }
+
 h1 {
     text-align: center;
     font-family: bignoodletitlingregular, sans-serif;
