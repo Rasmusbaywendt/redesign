@@ -37,15 +37,17 @@ h1 {
 
 h2 {
     font-family: 'VT323', monospace;
-    position: relative;
+    /*    position: relative;*/
     text-decoration-line: none;
-    display: flex;
+    /*    display: flex;*/
     float: none;
     justify-content: center;
     font-size: 7vw;
     color: #e013a0;
     text-shadow: 2px 2px 1px #ffffff;
     font-weight: 1;
+    padding: 0;
+    margin: 0;
 }
 
 h3 {
@@ -85,7 +87,8 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    /*    border: black;*/
+    border: 1px solid black;
+
 }
 
 #billede3 {
@@ -127,13 +130,17 @@ p {
     grid-template-columns: 2fr 3fr;
     column-gap: 20px;
     margin: auto;
+
 }
 
 .colparent3 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
+    display: flex;
+    flex-direction: row-reverse;
     column-gap: 20px;
+    /*
+    grid-template-columns: 2fr 3fr;
     margin: auto;
+*/
 }
 
 .colparent4 {
@@ -141,13 +148,17 @@ p {
     grid-template-columns: 2fr 3fr;
     column-gap: 20px;
     margin: auto;
+
 }
 
 .colparent5 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
+    display: flex;
+    flex-direction: row-reverse;
     column-gap: 20px;
+    /*
+    grid-template-columns: 2fr 3fr;
     margin: auto;
+*/
 }
 
 .colparent6 {
@@ -158,36 +169,44 @@ p {
 }
 
 .colparent7 {
-    display: grid;
+    display: flex;
     grid-template-columns: 2fr 3fr;
-    column-gap: 20px;
+    column-gap: 40px;
     margin: auto;
 }
 
 
-.flyve_dino {
+#flyve_dino {
+    /*
     width: 25vw;
     height: 20vw;
     background-size: cover;
     position: relative;
     top: 7%;
     left: 32%;
+*/
 }
 
-.flyvende_drage {
+#flyvende_drage {
+    /*
     width: 16vw;
     height: 20vw;
     background-size: cover;
     position: relative;
     top: 7%;
     left: 32%;
+*/
 }
 
-.fire {
+#fire {
+    /*
     width: 16vw;
     height: 20vw;
     background-size: cover;
     position: relative;
     top: 7%;
     left: 32%;
+*/
 }
+
+flex-direction: row-reverse;
