@@ -76,7 +76,9 @@ footer {
     font-style: normal;
 }
 
-*ARCADE CSS*/ img {
+/*ARCADE CSS STARTER*/
+
+img {
     width: 100%;
 }
 
@@ -184,7 +186,7 @@ p {
     width: 16vw;
     height: 20vw;
     background-size: cover;
-    position: relative;
+    /*    position: relative;*/
     top: 7%;
     left: 32%;
 }
@@ -193,7 +195,9 @@ p {
     width: 12vw;
     height: 10vw;
     background-size: cover;
-    position: relative;
+    /*    position: relative;*/
     top: 7%;
     left: 25%;
 }
+
+/*ARCADE CSS SLUTTER*/
