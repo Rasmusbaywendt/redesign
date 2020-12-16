@@ -35,7 +35,7 @@ img {
         font-style: normal;
         font-weight: 400;
         font-size: 2rem;
-        color: #e013a0;
+        color: #fef502;
     }
     #first_h2 {
         display: grid;
@@ -324,6 +324,27 @@ a:hover {
     }
 }
 @media (max-width: 750px) {
+    .gif3 {
+        display: none;
+    }
+    .gif2 {
+        display: none;
+    }
+    .gif4 {
+        display: none;
+    }
+    .gif5 {
+        display: none;
+    }
+    .gif7 {
+        display: none;
+    }
+    .gif6 {
+        display: none;
+    }
+    #album h1 {
+        font-size: 4rem;
+    }
     .checkbtn {
         display: block;
     }
