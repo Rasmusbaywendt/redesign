@@ -57,7 +57,7 @@ nav[role="navbar"] ul li a {
     text-transform: uppercase;
     text-decoration-line: none;
 }
-a:hover {
+nav[role="navbar"] a:hover {
     color: #ffffff;
 }
 .checkbtn {
