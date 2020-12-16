@@ -5,3 +5,7 @@
 /node_modules/
 
 *.psd
+*.mp4
+*.doc
+*.docx
+ds_store
