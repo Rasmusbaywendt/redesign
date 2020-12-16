@@ -100,6 +100,18 @@ h1 {
     margin: auto;
 }
 
+@media (max-width: 750px) {
+    #heman {
+        display: none;
+    }
+
+    #drage_ild {
+        display: none;
+    }
+}
+
+
+
 .drage_ild {
     width: 17vw;
     height: 20vw;
@@ -114,7 +126,7 @@ h1 {
     height: 20vw;
     background-size: cover;
     position: relative;
-    top: 7%;
+    top: 39%;
     left: 32%;
 }
 
