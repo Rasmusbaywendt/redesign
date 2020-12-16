@@ -15,7 +15,7 @@ img {
     }
     h2 {
         text-align: center;
-        font-family: fleisch-wolf, sans-serif;
+        font-family: 'JetBrains Mono', monospace;
         font-style: normal;
         font-weight: 400;
         font-size: 2rem;
@@ -48,9 +48,10 @@ img {
         grid-column-end: 5;
     }
     p {
-        font-family: bignoodletitlingregular, sans-serif;
+        font-family: 'JetBrains Mono', monospace;
         font-size: 1.5rem;
-        line-height: 1.4;
+        line-height: 1.6;
+        color: white;
     }
     @font-face {
         font-family: 'bignoodletitlingregular';
@@ -133,6 +134,11 @@ img {
         grid-column-start: 2;
         grid-column-end: 3;
     }
+}
+footer {
+    text-align: center;
+    word-spacing: 1vw;
+    margin-top: -2vw;
 }
 
 /*
@@ -256,6 +262,22 @@ a:hover {
     #check:checked ~ ul {
         left: 0;
     }
+    footer {
+        word-spacing: 1vw;
+        text-align: center;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+}
+footer {
+    word-spacing: 1vw;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
 }
 
 /*
