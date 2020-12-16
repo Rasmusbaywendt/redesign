@@ -53,10 +53,15 @@ section {
     }
 
     footer {
-        text-align: center;
+        padding-top: 15vw;
         word-spacing: 1vw;
-        margin-top: -2vw;
+        text-align: center;
+        right: 0;
+        left: 0;
+        bottom: 0;
+
     }
+
 
     /*FOOTER COMPUTER SLUT*/
 
