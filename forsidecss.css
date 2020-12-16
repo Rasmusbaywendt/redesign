@@ -167,6 +167,8 @@
 
     }
 
+    /*FOOTER MOBIL*/
+
     nav[role="third"] a {
         font-family: 'VT323', monospace;
         color: #e6e617;
@@ -303,7 +305,7 @@
         grid-template-columns: 1fr 1fr;
         text-align: center;
     }
-
+/*FOOTER COMPUTER*/
     nav[role="third"] a {
         font-family: 'VT323', monospace;
         color: #e6e617;
@@ -331,6 +333,8 @@
         word-spacing: 1vw;
         margin-top: -2vw;
     }
+
+    /*FOOTER COMPUTER SLUT*/
 
     h2 {
         font-family: 'VT323', monospace;
