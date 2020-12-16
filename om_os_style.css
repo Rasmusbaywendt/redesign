@@ -16,6 +16,13 @@ img {
     font-style: normal;
 }
 
+.margin {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
 body {
     background-image: url(backgroundblue.png);
     margin: 0;
@@ -190,6 +197,7 @@ h4 {
     grid-template-columns: 2fr 3fr;
     column-gap: 40px;
     margin: auto;
+    max-width: 1200px
 }
 
 #flyve_dino {
