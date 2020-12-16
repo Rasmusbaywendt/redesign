@@ -5,7 +5,7 @@ body {
     font-family: 'VT323', monospace;
 }
 
-.videoer{
+.videoer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-top: 90px;
@@ -19,6 +19,7 @@ body {
     list-style: none;
     box-sizing: border-box;
 }
+
 section {
     max-width: 1200px;
     margin: auto;
@@ -29,39 +30,42 @@ section {
     margin-top: 12px;
     margin-left: 25px;
 }
+
 /*FOOTER COMPUTER*/
-    nav[role="third"] a {
-        font-family: 'VT323', monospace;
-        color: #e6e617;
-        text-shadow: 2px 2px 1px #e013a0;
-        font-weight: 1;
-        font-size: 1.5vw;
-        text-transform: uppercase;
-        text-align: center;
-        text-decoration-line: none;
-    }
+nav[role="third"] a {
+    font-family: 'VT323', monospace;
+    color: #e6e617;
+    text-shadow: 2px 2px 1px #e013a0;
+    font-weight: 1;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: none;
+}
 
-    nav[role="third"] a:hover {
-        font-family: 'VT323', monospace;
-        color: #e6e617;
-        text-shadow: 2px 2px 1px #e013a0;
-        font-weight: 1;
-        font-size: 1.7vw;
-        text-transform: uppercase;
-        text-align: center;
-        text-decoration-line: none;
-    }
+nav[role="third"] a:hover {
+    font-family: 'VT323', monospace;
+    color: #e6e617;
+    text-shadow: 2px 2px 1px #e013a0;
+    font-weight: 1;
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: none;
+}
 
-    footer {
-        text-align: center;
-        word-spacing: 1vw;
-        margin-top: -2vw;
-    }
+footer {
+    padding-top: 15vw;
+    word-spacing: 1vw;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
 
-    /*FOOTER COMPUTER SLUT*/
+}
 
 
-
+/*FOOTER COMPUTER SLUT*/
 
 
 
@@ -72,4 +76,3 @@ section {
     font-style: normal;
 }
 }
-
