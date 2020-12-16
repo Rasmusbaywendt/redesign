@@ -217,7 +217,7 @@ a:hover {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 }
-@media (max-width: 915px) {
+@media (max-width: 940px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -226,7 +226,7 @@ a:hover {
         font-size: 16px;
     }
 }
-@media (max-width: 725px) {
+@media (max-width: 750px) {
     .checkbtn {
         display: block;
     }
