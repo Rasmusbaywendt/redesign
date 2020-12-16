@@ -6,10 +6,10 @@ img {
         max-width: 1200px;
         margin: auto;
     }
-    body {
-        background-image: url(backgroundblue.png);
-        margin: 0;
-    }
+    /*body {
+                        background-image: url(backgroundblue.png);
+                        margin: 0;
+                    }*/
     h1 {
         text-align: center;
         font-family: bignoodletitlingregular, sans-serif;
@@ -63,6 +63,86 @@ img {
         grid-column-start: 2;
         grid-column-end: 3;
     }
+    #billede3 {
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        margin: auto;
+    }
+    .bobby {
+        display: block;
+        margin-top: 0.5vw;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    #gif1 {
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        margin: auto;
+    }
+    .ild {
+        display: block;
+        margin-top: 0.5vw;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .gif2 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 140%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .gif3 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 140%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .gif4 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .gif5 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 140%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .gif6 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 12%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
     #first_section {
         display: grid;
         grid-template-columns: repeat( 5, 1fr);
@@ -95,6 +175,22 @@ img {
         grid-column-start: 2;
         grid-column-end: 5;
     }
+    #fourth_section {
+        display: grid;
+        grid-template-columns: repeat( 5, 1fr);
+    }
+    #fourth_section p {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    #third_h2 {
+        display: grid;
+        grid-template-columns: repeat( 5, 1fr);
+    }
+    #third_h2 h2 {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
     p {
         font-family: bignoodletitlingregular, sans-serif;
         font-size: 1.5rem;
@@ -110,6 +206,7 @@ img {
 }
 
 /* HER */
+
 body {
     background-image: url(backgroundblue.png);
     margin: 0;
@@ -123,12 +220,10 @@ body {
     list-style: none;
     box-sizing: border-box;
 }
-
 section {
     max-width: 1200px;
     margin: auto;
 }
-
 section .videoer {
     padding-top: 10vh;
     display: grid;
@@ -136,45 +231,35 @@ section .videoer {
     grid-gap: 10px;
     height: 5vw;
     width: 7vw;
-
 }
-
 #videologo img {
     width: 75px;
     margin-top: 12px;
     margin-left: 25px;
 }
-
 nav {
     background: #bc3291;
     height: 80px;
     width: 100%;
 }
-
 nav ul {
     float: right;
     margin-right: 20px;
 }
-
 nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
-
 nav ul li a {
     color: #ebff00;
     font-size: 23px;
     padding: 2vw 1vw;
     text-transform: uppercase;
-
 }
-
 a:hover {
     color: #ffffff;
 }
-
-
 .checkbtn {
     font-size: 25px;
     color: white;
@@ -184,46 +269,36 @@ a:hover {
     cursor: pointer;
     display: none;
 }
-
 #check {
     display: none;
 }
-
-    .videofar {
+.videofar {
     padding-top: 3vh;
     text-align: center;
 }
-
 #videofar #ytplayer {
-        display: block;
-        height: 100%;
-        object-fit: cover;
-
-    }
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
 #galleri .videoer {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 10px;
-    }
-
-
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
 @media (max-width: 915px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
     }
-
     nav ul li a {
         font-size: 16px;
     }
 }
-
 @media (max-width: 725px) {
-
     .checkbtn {
         display: block;
     }
-
     ul {
         position: fixed;
         width: 100%;
@@ -234,28 +309,26 @@ a:hover {
         text-align: center;
         transition: all .5s;
     }
-
     nav ul li {
         display: block;
         margin: 50px 0;
         line-height: 20px;
     }
-
     nav ul li a {
         font-size: 30px;
         color: #bc3291;
     }
-
     a:hover {
         background: none;
         color: #000000;
     }
-
     #check:checked ~ ul {
         left: 0;
     }
+}
 
-    /*SLUT*/
+/*SLUT*/
+
 
 /*
 body {
