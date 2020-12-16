@@ -114,7 +114,7 @@ h1 {
     left: 32%;
 }
 
-.ild {
+.billede11 {
     width: 16vw;
     height: 20vw;
     background-size: cover;
@@ -132,6 +132,7 @@ h1 {
     list-style: none;
     box-sizing: border-box;
 }
+
 section {
     max-width: 1200px;
     margin: auto;
@@ -190,7 +191,7 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 915px) {
+@media (max-width: 940px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -201,14 +202,15 @@ a:hover {
     }
 }
 
-@media (max-width: 725px) {
-    .videoer{
+@media (max-width: 750px) {
+    .videoer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         max-width: 5px;
 
     }
+
     .checkbtn {
         display: block;
     }
@@ -250,7 +252,7 @@ a:hover {
 
 
 
-/*
+    /*
 #billede2 {
     display: block;
     margin-left: auto;
@@ -344,7 +346,7 @@ a:hover {
 }
 */
 
-/*
+    /*
 
 * {
     margin: 0;
