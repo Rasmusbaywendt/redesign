@@ -1,199 +1,388 @@
-body {
-    background-image: url(backgroundblue.png);
-    margin: 0;
-    padding: 0;
-}
+/*MOBILTELEFON*/
 
-#kolonefar {
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    margin: auto;
-}
+@media (max-width: 724px) {
 
-.link1 li {
-    display: block;
-    text-align: center;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-.link1 a {
-    text-align: center;
-}
-
-a {
-    width: 100%;
-}
-
-img {
-    width: 100%;
-    position: relative;
-}
-
-.logo {
-    padding-bottom: 15px;
-}
-
-nav[role="main"] a {
-    font-family: 'VT323', monospace;
-    position: relative;
-    text-decoration-line: none;
-    float: none;
-    justify-content: center;
-    font-size: 2vw;
-    color: #e6e617;
-    text-shadow: 2px 2px 1px #e60ec5;
-    line-height: 12vw;
-    text-transform: uppercase;
-}
-
-.link1 a:hover {
-    font-family: 'VT323', monospace;
-    position: relative;
-    text-decoration-line: none;
-    float: none;
-    justify-content: center;
-    font-size: 2.3vw;
-    color: #e60ec5;
-    text-shadow: 2px 2px 1px #e6e617;
-    line-height: 12vw;
-    text-transform: uppercase;
-
-}
-
-.nav[role="sub"] a:hover {
-    font-family: 'VT323', monospace;
-    position: relative;
-    text-decoration-line: none;
-    float: none;
-    justify-content: center;
-    font-size: 6vw;
-    color: #e6e617;
-    text-shadow: 2px 2px 1px #e013a0;
-    font-weight: 1;
-    text-transform: uppercase;
-}
-
-nav[role="sub"] a {
-    font-family: 'VT323', monospace;
-    position: relative;
-    text-decoration-line: none;
-    float: none;
-    justify-content: center;
-    font-size: 5vw;
-    color: #e013a0;
-    text-shadow: 2px 2px 1px #e6e617;
-    font-weight: 1;
-    text-transform: uppercase;
-}
-
-nav[role="sub"] {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-}
-
-nav[role="third"] a {
-    font-family: 'VT323', monospace;
-    color: #e6e617;
-    text-shadow: 2px 2px 1px #e013a0;
-    font-weight: 1;
-    font-size: 1.5vw;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration-line: none;
-}
-
-nav[role="third"] a:hover {
-    font-family: 'VT323', monospace;
-    color: #e6e617;
-    text-shadow: 2px 2px 1px #e013a0;
-    font-weight: 1;
-    font-size: 1.7vw;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration-line: none;
-}
-
-footer{
-    text-align: center;
-    word-spacing: 1vw;
-    margin-top: -2vw;
-}
-
-h2 {
-    font-family: 'VT323', monospace;
-    position: relative;
-    text-decoration-line: none;
-    display: flex;
-    float: none;
-    justify-content: center;
-    font-size: 3vw;
-    color: #e013a0;
-    text-shadow: 2px 2px 1px #ffffff;
-    font-weight: 1;
-}
-
-div.kolone2 .logo {
-    display: block;
-    margin-top: 0.5vw;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 5px;
-}
-
-div.kolone2 .frisoer {
-    display: block;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.kolone2 .choose {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div.kolone2 .whiteobjekt {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@font-face {
-    font-family: 'bignoodletitlingregular';
-    src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-.blink {
-    animation-name: blinkingText_kf;
-    animation animation-duration: 1s;
-    animation-iteration-count: infinite
-}
-
-@keyframes blinkingText_kf {
-    0% {
-        opacity: 0
+    .kolone1 {
+        display: none;
+    }
+    .kolone2 {
+        margin-top: 3vw;
+        margin-bottom: 10vw;
     }
 
-    100% {
-        opacity: 1
+    .kolone3 {
+        display: none;
     }
+
+    body {
+        background-image: url(backgroundblue.png);
+        margin: 0;
+        padding: 0;
+        font-family: 'VT323', monospace;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    #videologo img {
+        width: 75px;
+        margin-top: 12px;
+        margin-left: 25px;
+    }
+
+    .move nav {
+        background: #bc3291;
+        height: 80px;
+        width: 100%;
+    }
+
+    .move nav ul {
+        float: right;
+        margin-right: 20px;
+    }
+
+    .move nav ul li {
+        display: block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+
+    .move nav ul li a {
+        color: #ebff00;
+        font-size: 23px;
+        padding: 2vw 1vw;
+        text-transform: uppercase;
+
+    }
+
+    .move a:hover {
+        color: #ffffff;
+    }
+
+    .checkbtn {
+        font-size: 25px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .move ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #e6e617;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;
+    }
+
+    .move nav ul li a {
+        font-size: 30px;
+        color: #bc3291;
+    }
+
+    a:hover {
+        background: none;
+        color: #000000;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    div.kolone2 .logo {
+        display: block;
+        margin-top: 0.5vw;
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2vw;
+    }
+    div.kolone2 .frisoer {
+        margin-top: 1vw;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15vw;
+    }
+
+    div.kolone2 .choose {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10vw;
+    }
+
+    div.kolone2 .whiteobjekt {
+        display: none;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2 {
+        font-family: 'VT323', monospace;
+        text-decoration-line: none;
+        display: flex;
+        float: none;
+        justify-content: center;
+        font-size: 10vw;
+        color: #e013a0;
+        text-shadow: 1px 1px 1px #ffffff;
+        font-weight: 1;
+    }
+
+    footer {
+        word-spacing: 1vw;
+        text-align: center;
+        right: 0;
+        left: 0;
+        bottom: 0;
+
+    }
+
+    nav[role="third"] a {
+        font-family: 'VT323', monospace;
+        color: #e6e617;
+        text-shadow: 2px 2px 1px #e013a0;
+        font-weight: 1;
+        font-size: 9vw;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration-line: none;
+
+
+
+    }
+
+    nav[role="sub"] a {
+        font-family: 'VT323', monospace;
+        text-decoration-line: none;
+        float: none;
+        justify-content: center;
+        font-size: 24vw;
+        color: #e013a0;
+        text-shadow: 2px 2px 1px #e6e617;
+        font-weight: 1;
+        text-transform: uppercase;
+        display: flex;
+
+    }
+
+
 
 }
 
-@media (max-width 600px) {
+/*COMPUTER*/
+
+@media (min-width: 725px) {
+
+
+    body {
+        background-image: url(backgroundblue.png);
+        margin: 0;
+        padding: 0;
+    }
+
+    .move {
+        display: none;
+    }
+
+    .kolonefar {
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        margin: auto;
+    }
+
+    .link1 li {
+        display: block;
+        text-align: center;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .link1 a {
+        text-align: center;
+    }
+
+    a {
+        width: 100%;
+    }
+
     img {
         width: 100%;
     }
 
+    .logo {
+        padding-bottom: 15px;
+    }
+
+    nav[role="main"] a {
+        font-family: 'VT323', monospace;
+        text-decoration-line: none;
+        float: none;
+        justify-content: center;
+        font-size: 2vw;
+        color: #e6e617;
+        text-shadow: 2px 2px 1px #e60ec5;
+        line-height: 12vw;
+        text-transform: uppercase;
+    }
+
+    .link1 a:hover {
+        font-family: 'VT323', monospace;
+        position: relative;
+        text-decoration-line: none;
+        float: none;
+        justify-content: center;
+        font-size: 2.3vw;
+        color: #e60ec5;
+        text-shadow: 2px 2px 1px #e6e617;
+        line-height: 12vw;
+        text-transform: uppercase;
+
+    }
+
+    .nav[role="sub"] a:hover {
+        font-family: 'VT323', monospace;
+        position: relative;
+        text-decoration-line: none;
+        float: none;
+        justify-content: center;
+        font-size: 6vw;
+        color: #e6e617;
+        text-shadow: 2px 2px 1px #e013a0;
+        font-weight: 1;
+        text-transform: uppercase;
+    }
+
+    nav[role="sub"] a {
+        font-family: 'VT323', monospace;
+        position: relative;
+        text-decoration-line: none;
+        float: none;
+        justify-content: center;
+        font-size: 5vw;
+        color: #e013a0;
+        text-shadow: 2px 2px 1px #e6e617;
+        font-weight: 1;
+        text-transform: uppercase;
+    }
+
+    nav[role="sub"] {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    nav[role="third"] a {
+        font-family: 'VT323', monospace;
+        color: #e6e617;
+        text-shadow: 2px 2px 1px #e013a0;
+        font-weight: 1;
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration-line: none;
+    }
+
+    nav[role="third"] a:hover {
+        font-family: 'VT323', monospace;
+        color: #e6e617;
+        text-shadow: 2px 2px 1px #e013a0;
+        font-weight: 1;
+        font-size: 1.7vw;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration-line: none;
+    }
+
+    footer {
+        text-align: center;
+        word-spacing: 1vw;
+        margin-top: -2vw;
+    }
+
+    h2 {
+        font-family: 'VT323', monospace;
+        position: relative;
+        text-decoration-line: none;
+        display: flex;
+        float: none;
+        justify-content: center;
+        font-size: 3vw;
+        color: #e013a0;
+        text-shadow: 2px 2px 1px #ffffff;
+        font-weight: 1;
+    }
+
+    div.kolone2 .logo {
+        display: block;
+        margin-top: 0.5vw;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+    }
+
+
+
+    div.kolone2 .frisoer {
+        display: block;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.kolone2 .choose {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.kolone2 .whiteobjekt {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @font-face {
+        font-family: 'bignoodletitlingregular';
+        src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
 }
+
+/*----------------------------------------------------------START MOBILE--------------------------------------------------*/

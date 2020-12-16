@@ -19,12 +19,7 @@ img {
 body {
     background-image: url(backgroundblue.png);
     margin: 0;
-}
 
-.section_wrapper {
-    display: grid;
-    grid-template-columns: 2fr 5fr;
-    column-gap: 10px;
 }
 
 h1 {
@@ -33,6 +28,7 @@ h1 {
     font-size: 5rem;
     margin: 0;
     color: #fef502;
+    text-align: center;
 }
 
 h2 {
@@ -42,11 +38,23 @@ h2 {
     display: flex;
     float: none;
     justify-content: center;
-    font-size: 7vw;
+    font-size: 10vw;
     color: #e013a0;
     text-shadow: 2px 2px 1px #ffffff;
     font-weight: 1;
+    text-align: center;
 }
+
+/*
+h2 {
+    text-align: center;
+    font-family: fleisch-wolf, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #e013a0;
+}
+*/
 
 h3 {
     text-align: center;
@@ -55,6 +63,7 @@ h3 {
     font-weight: 400;
     font-size: 2rem;
     color: #e013a0;
+    text-align: center;
 }
 
 h4 {
@@ -64,12 +73,15 @@ h4 {
     font-weight: 400;
     font-size: 2rem;
     color: #e013a0;
+    text-align: center;
 }
+
 
 p {
     font-family: bignoodletitlingregular, sans-serif;
     font-size: 1.5rem;
     line-height: 1.4;
+    text-align: center;
 }
 
 #billede1 {
@@ -79,108 +91,16 @@ p {
     width: 14%;
 }
 
-
-#billede2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    /*    border: black;*/
-}
-
-#billede3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-#billede4 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-#billede5 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-#billede6 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
 .colparent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
 }
 
-.colparent2 {
+.colparent1 {
     display: grid;
-    grid-template-columns: 2fr 3fr;
-    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
-}
-
-.colparent3 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    column-gap: 20px;
-    margin: auto;
-}
-
-.colparent4 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    column-gap: 20px;
-    margin: auto;
-}
-
-.colparent5 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    column-gap: 20px;
-    margin: auto;
-}
-
-.colparent6 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    column-gap: 20px;
-    margin: auto;
-}
-
-.colparent7 {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    column-gap: 20px;
-    margin: auto;
-}
-
-
-.flyve_dino {
-    width: 25vw;
-    height: 20vw;
-    background-size: cover;
-    position: relative;
-    top: 7%;
-    left: 32%;
-}
-
-.flyvende_drage {
-    width: 16vw;
-    height: 20vw;
-    background-size: cover;
-    position: relative;
-    top: 7%;
-    left: 32%;
 }
 
 .fire {
@@ -191,3 +111,23 @@ p {
     top: 7%;
     left: 32%;
 }
+
+.dino2 {
+    width: 12vw;
+    height: 10vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 25%;
+}
+
+/*
+.flyvende_drage {
+    width: 16vw;
+    height: 20vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 32%;
+}
+*/
