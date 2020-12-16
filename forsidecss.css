@@ -1,6 +1,6 @@
 /*MOBILTELEFON*/
 
-@media (max-width: 724px) {
+@media (max-width: 725px) {
 
     .kolone1 {
         display: none;
@@ -35,84 +35,7 @@
         margin-left: 25px;
     }
 
-    .move nav {
-        background: #bc3291;
-        height: 80px;
-        width: 100%;
-    }
 
-    .move nav ul {
-        float: right;
-        margin-right: 20px;
-    }
-
-    .move nav ul li {
-        display: block;
-        line-height: 80px;
-        margin: 0 5px;
-    }
-
-    .move nav ul li a {
-        color: #ebff00;
-        font-size: 23px;
-        padding: 2vw 1vw;
-        text-transform: uppercase;
-
-    }
-
-    .move a:hover {
-        color: #ffffff;
-    }
-
-    .checkbtn {
-        font-size: 25px;
-        color: white;
-        float: right;
-        line-height: 80px;
-        margin-right: 40px;
-        cursor: pointer;
-        display: none;
-    }
-
-    #check {
-        display: none;
-    }
-
-    .checkbtn {
-        display: block;
-    }
-
-    .move ul {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        background: #e6e617;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-
-    }
-
-    nav ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 20px;
-    }
-
-    .move nav ul li a {
-        font-size: 30px;
-        color: #bc3291;
-    }
-
-    a:hover {
-        background: none;
-        color: #000000;
-    }
-
-    #check:checked ~ ul {
-        left: 0;
-    }
 
     div.kolone2 .logo {
         display: block;
@@ -166,6 +89,8 @@
         bottom: 0;
 
     }
+
+    /*FOOTER MOBIL*/
 
     nav[role="third"] a {
         font-family: 'VT323', monospace;
@@ -303,7 +228,7 @@
         grid-template-columns: 1fr 1fr;
         text-align: center;
     }
-
+/*FOOTER COMPUTER*/
     nav[role="third"] a {
         font-family: 'VT323', monospace;
         color: #e6e617;
@@ -331,6 +256,8 @@
         word-spacing: 1vw;
         margin-top: -2vw;
     }
+
+    /*FOOTER COMPUTER SLUT*/
 
     h2 {
         font-family: 'VT323', monospace;

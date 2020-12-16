@@ -17,10 +17,14 @@ body {
 
 h1 {
     text-align: center;
-    font-family: bignoodletitlingregular, sans-serif;
+    font-family: 'VT323', monospace;
     font-size: 5rem;
     margin: 0;
     color: #fef502;
+    text-shadow: 2px 2px 1px #e013a0;
+    font-weight: 1;
+    padding-top: 90px;
+    padding-bottom: 20px;
 }
 
 .h2_galleri {
@@ -87,7 +91,7 @@ h1 {
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
-    box-shadow: 10px 10px 10px 10px #d029de;
+    box-shadow: 10px 10px 10px 10px #bc3291;
 }
 
 .colparent {
@@ -101,8 +105,8 @@ h1 {
     height: 20vw;
     background-size: cover;
     position: relative;
-    top: 19%;
-    left: 8%;
+    top: 88%;
+    left: 23%;
 }
 
 .heman {
@@ -114,7 +118,7 @@ h1 {
     left: 32%;
 }
 
-.ild {
+.billede11 {
     width: 16vw;
     height: 20vw;
     background-size: cover;
@@ -132,6 +136,7 @@ h1 {
     list-style: none;
     box-sizing: border-box;
 }
+
 section {
     max-width: 1200px;
     margin: auto;
@@ -190,7 +195,7 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 915px) {
+@media (max-width: 940px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -201,14 +206,15 @@ a:hover {
     }
 }
 
-@media (max-width: 725px) {
-    .videoer{
+@media (max-width: 750px) {
+    .videoer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         max-width: 5px;
 
     }
+
     .checkbtn {
         display: block;
     }
@@ -250,7 +256,7 @@ a:hover {
 
 
 
-/*
+    /*
 #billede2 {
     display: block;
     margin-left: auto;
@@ -344,7 +350,7 @@ a:hover {
 }
 */
 
-/*
+    /*
 
 * {
     margin: 0;
