@@ -341,3 +341,28 @@ a:hover {
 }
 
 /* NAV BAR SLUTTER HER*/
+
+
+/* FOOTER STARTER HER*/
+
+nav {
+    background: #bc3291;
+    height: 80px;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+footer {
+    word-spacing: 1vw;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
