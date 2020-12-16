@@ -1,0 +1,253 @@
+img {
+    width: 100%;
+}
+@media only screen and (min-width:600px) {
+    section {
+        max-width: 1200px;
+        margin: auto;
+    }
+    h2 {
+        text-align: center;
+        font-family: fleisch-wolf, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2rem;
+        color: #e013a0;
+    }
+    #first_h1 {
+        display: grid;
+        grid-template-columns: repeat( 5, 1fr);
+    }
+    #first_h1 h1 {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    #first_h2 {
+        display: grid;
+        grid-template-columns: repeat( 5, 1fr);
+    }
+    #first_h2 h2 {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    #first_section {
+        display: grid;
+        grid-template-columns: repeat( 5, 1fr);
+    }
+    #first_section p {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    p {
+        font-family: bignoodletitlingregular, sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.4;
+    }
+    @font-face {
+        font-family: 'bignoodletitlingregular';
+        src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+#billede_kolonne {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+}
+.butik1 {
+    display: block;
+    margin-top: 0.5vw;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.butik2 {
+    display: block;
+    margin-top: 0.5vw;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.butik3 {
+    display: block;
+    margin-top: 0.5vw;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.butik4 {
+    display: block;
+    margin-top: 0.5vw;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.ild1 {
+    display: block;
+    margin-top: 0.5vw;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.ild2 {
+    display: block;
+    margin-top: 0.5vw;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.ild3 {
+    display: block;
+    margin-top: 0.5vw;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+/*
+*/
+
+body {
+    background-image: url(backgroundblue.png);
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+section {
+    max-width: 1200px;
+    margin: auto;
+}
+section .videoer {
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    height: 5vw;
+    width: 7vw;
+}
+#videologo img {
+    width: 75px;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+nav {
+    background: #bc3291;
+    height: 80px;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: #ebff00;
+    font-size: 23px;
+    padding: 2vw 1vw;
+    text-transform: uppercase;
+}
+a:hover {
+    color: #ffffff;
+}
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+.videofar {
+    padding-top: 3vh;
+    text-align: center;
+}
+#videofar #ytplayer {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+#galleri .videoer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+@media (max-width: 915px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 725px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #e6e617;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;
+    }
+    nav ul li a {
+        font-size: 30px;
+        color: #bc3291;
+    }
+    a:hover {
+        background: none;
+        color: #000000;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+/*
+*/
