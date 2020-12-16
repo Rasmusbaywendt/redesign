@@ -15,14 +15,14 @@ img {
         margin: 0;
         color: #fef502;
     }*/
-    h2 {
+    /*h2 {
         text-align: center;
         font-family: 'JetBrains Mono', monospace;
         font-style: normal;
         font-weight: 400;
         font-size: 2rem;
         color: #fef502;
-    }
+    }*/
     #first_h1 {
         display: grid;
         grid-template-columns: 1fr 8fr 1fr;
