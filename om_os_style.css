@@ -88,40 +88,54 @@ h4 {
     width: 14%;
 }
 
-#billede2 {
+.billede2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    border: 1px solid black;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
 }
 
-#billede3 {
+.billede3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
 }
 
-#billede4 {
+.billede4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
 }
 
-#billede5 {
+.billede5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
 }
 
-#billede6 {
+.billede6 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
 }
 
 .colparent {

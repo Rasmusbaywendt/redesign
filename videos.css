@@ -183,6 +183,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
+
 }
 
 #ild {
@@ -206,7 +207,7 @@ p {
     width: 16vw;
     height: 20vw;
     background-size: cover;
-    /*    position: relative;*/
+        position: relative;
     top: 7%;
     left: 32%;
 }
@@ -215,9 +216,10 @@ p {
     width: 12vw;
     height: 10vw;
     background-size: cover;
-    /*    position: relative;*/
+        position: relative;
     top: 7%;
     left: 25%;
+    align-content: center;
 }
 
 /*ARCADE CSS SLUTTER*/
