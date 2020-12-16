@@ -1,10 +1,10 @@
-/*NAVBAR HERFRA*/
-body{
+    /*NAVBAR HERFRA*/
+
+body {
     font-family: 'VT323', monospace;
 }
-
-h1{
-     text-align: center;
+h1 {
+    text-align: center;
     font-family: 'VT323', monospace;
     font-size: 5rem;
     margin: 0;
@@ -15,6 +15,7 @@ h1{
     padding-bottom: 20px;
     text-transform: uppercase;
 }
+
 }
 * {
     padding: 0;
@@ -23,12 +24,10 @@ h1{
     list-style: none;
     box-sizing: border-box;
 }
-
 section {
     max-width: 1200px;
     margin: auto;
 }
-
 #videologo img {
     width: 75px;
     margin-top: 12px;
@@ -36,38 +35,30 @@ section {
 }
 
 /*NAV BAR STARTER HER*/
-
 nav[role="navbar"] {
     background: #bc3291;
     height: 80px;
     width: 100%;
     position: fixed;
 }
-
 nav[role="navbar"] ul {
     float: right;
     margin-right: 20px;
 }
-
 nav[role="navbar"] ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
-
 nav[role="navbar"] ul li a {
     color: #ebff00;
     font-size: 23px;
     padding: 2vw 1vw;
     text-transform: uppercase;
-
 }
-
 a:hover {
     color: #ffffff;
 }
-
-
 .checkbtn {
     font-size: 25px;
     color: white;
@@ -77,35 +68,28 @@ a:hover {
     cursor: pointer;
     display: none;
 }
-
 #check {
     display: none;
 }
-
 @media (max-width: 940px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
     }
-
     nav ul li a {
         font-size: 16px;
     }
 }
-
 @media (max-width: 750px) {
     .videoer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         max-width: 5px;
-
     }
-
     .checkbtn {
         display: block;
     }
-
     ul {
         position: fixed;
         width: 100%;
@@ -116,26 +100,20 @@ a:hover {
         text-align: center;
         transition: all .5s;
     }
-
     nav[role="navbar"] ul li {
         display: block;
         margin: 50px 0;
         line-height: 20px;
     }
-
     nav[role="navbar"] ul li a {
         font-size: 30px;
         color: #bc3291;
     }
-
     a:hover {
         background: none;
         color: #000000;
     }
-
     #check:checked ~ ul {
         left: 0;
     }
-
     /*NAVBAR SLUTTER HER*/
-
