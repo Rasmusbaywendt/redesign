@@ -5,7 +5,6 @@ body {
     font-family: 'VT323', monospace;
 }
 
-
 .videoer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
