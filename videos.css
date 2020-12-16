@@ -4,14 +4,12 @@ body {
     padding: 0;
     font-family: 'VT323', monospace;
 }
-
 .videoer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-top: 90px;
     grid-gap: 10px;
 }
-
 * {
     padding: 0;
     margin: 0;
@@ -19,12 +17,10 @@ body {
     list-style: none;
     box-sizing: border-box;
 }
-
 section {
     max-width: 1200px;
     margin: auto;
 }
-
 #videologo img {
     width: 75px;
     margin-top: 12px;
@@ -32,6 +28,7 @@ section {
 }
 
 /*FOOTER COMPUTER*/
+
 nav[role="third"] a {
     font-family: 'VT323', monospace;
     color: #e6e617;
@@ -42,7 +39,6 @@ nav[role="third"] a {
     text-align: center;
     text-decoration-line: none;
 }
-
 nav[role="third"] a:hover {
     font-family: 'VT323', monospace;
     color: #e6e617;
@@ -53,7 +49,6 @@ nav[role="third"] a:hover {
     text-align: center;
     text-decoration-line: none;
 }
-
 footer {
     padding-top: 15vw;
     word-spacing: 1vw;
@@ -61,13 +56,9 @@ footer {
     right: 0;
     left: 0;
     bottom: 0;
-
 }
 
-
 /*FOOTER COMPUTER SLUT*/
-
-
 
 @font-face {
     font-family: 'bignoodletitlingregular';
@@ -75,17 +66,15 @@ footer {
     font-weight: normal;
     font-style: normal;
 }
-
 <<<<<<< HEAD
 /*ARCADE CSS STARTER*/
 
 =======
-
 /*ARCADE CSS*/
+
 > > > > > > > origin/master img {
     width: 100%;
 }
-
 @media only screen and (min-width:600px) {
     section {
         max-width: 1200px;
@@ -106,7 +95,6 @@ body {
     background-image: url(backgroundblue.png);
     margin: 0;
 }
-
 h1 {
     text-align: center;
     font-family: 'VT323', monospace;
@@ -116,7 +104,6 @@ h1 {
     text-align: center;
     padding-top: 90px;
 }
-
 h2 {
     font-family: 'VT323', monospace;
     text-decoration-line: none;
@@ -150,7 +137,6 @@ h3 {
     color: #e013a0;
     text-align: center;
 }
-
 h4 {
     text-align: center;
     font-family: bignoodletitlingregular, sans-serif;
@@ -160,33 +146,43 @@ h4 {
     color: #e013a0;
     text-align: center;
 }
-
 p {
     font-family: bignoodletitlingregular, sans-serif;
     font-size: 1.5rem;
     line-height: 1.4;
     text-align: center;
 }
-
 #billede1 {
     display: block;
     margin-left: inherit;
     margin-right: auto;
     width: 14%;
 }
-
 .colparent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
 }
-
 .colparent1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
 }
-
+#ild {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    margin: auto;
+}
+.ild {
+    display: block;
+    margin-top: 0.5vw;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 .fire {
     width: 16vw;
     height: 20vw;
@@ -195,7 +191,6 @@ p {
     top: 7%;
     left: 32%;
 }
-
 .dino2 {
     width: 12vw;
     height: 10vw;

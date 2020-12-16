@@ -15,7 +15,29 @@ h1 {
     padding-bottom: 20px;
     text-transform: uppercase;
 }
+h2 {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #e013a0;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-shadow: 2px 2px 1px #000000;
+}
 p {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #d2ff3b;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-shadow: 2px 2px 1px #000000;
+}
+h4 {
     text-align: center;
     font-family: 'VT323', monospace;
     font-style: normal;
