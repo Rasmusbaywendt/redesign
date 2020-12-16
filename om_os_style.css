@@ -47,7 +47,7 @@ h2 {
     justify-content: center;
     font-size: 7vw;
     color: #e013a0;
-    text-shadow: 2px 2px 1px #ffffff;
+    text-shadow: 2px 2px 1px #fef502;
     font-weight: 1;
     padding: 0;
     margin: 0;
@@ -68,7 +68,7 @@ h4 {
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
-    color: #ffffff;
+    color: black;
     padding-bottom: 20px;
 }
 
@@ -76,7 +76,7 @@ p {
     font-family: bignoodletitlingregular, sans-serif;
     font-size: 1.5rem;
     line-height: 1.4;
-    color: #ffffff;
+    color: black;
 }
 
 #billede1 {
@@ -214,6 +214,7 @@ p {
     flex-direction: row-reverse;
 */
 }
+
 /* NAV BAR STARTER HER*/
 * {
     padding: 0;
@@ -222,6 +223,7 @@ p {
     list-style: none;
     box-sizing: border-box;
 }
+
 section {
     max-width: 1200px;
     margin: auto;
@@ -292,13 +294,14 @@ a:hover {
 }
 
 @media (max-width: 750px) {
-    .videoer{
+    .videoer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         max-width: 5px;
 
     }
+
     .checkbtn {
         display: block;
     }
