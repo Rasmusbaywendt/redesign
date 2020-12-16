@@ -1,22 +1,26 @@
 img {
     width: 100%;
 }
+
 @media only screen and (min-width:600px) {
     section {
         max-width: 1200px;
         margin: auto;
     }
 }
+
 @font-face {
     font-family: 'bignoodletitlingregular';
     src: url('fonts/big_noodle_titling-webfont.woff2') format('woff2'), url('big_noodle_titling-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 body {
     background-image: url(backgroundblue.png);
     margin: 0;
 }
+
 h1 {
     text-align: center;
     font-family: bignoodletitlingregular, sans-serif;
@@ -26,6 +30,7 @@ h1 {
     text-align: center;
     padding-top: 90px;
 }
+
 h2 {
     font-family: 'VT323', monospace;
     position: relative;
@@ -52,6 +57,7 @@ nav[role="third"] a {
     text-align: center;
     text-decoration-line: none;
 }
+
 nav[role="third"] a:hover {
     font-family: 'VT323', monospace;
     color: #e6e617;
@@ -62,6 +68,7 @@ nav[role="third"] a:hover {
     text-align: center;
     text-decoration-line: none;
 }
+
 footer {
     padding-top: 15vw;
     word-spacing: 1vw;
@@ -116,28 +123,33 @@ h4 {
 }
 */
 
-<<<<<<< HEAD=======>>>>>>> origin/master p {
+<<<<<<< HEAD======= > > > > > > > origin/master p {
     font-family: bignoodletitlingregular, sans-serif;
     font-size: 1.5rem;
     line-height: 1.4;
     text-align: center;
 }
+
 #billede1 {
     display: block;
     margin-left: inherit;
     margin-right: auto;
     width: 14%;
 }
+
 .colparent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
+
 }
+
 .colparent1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
 }
+
 .fire {
     width: 16vw;
     height: 20vw;
@@ -146,6 +158,7 @@ h4 {
     top: 7%;
     left: 32%;
 }
+
 .dino2 {
     width: 12vw;
     height: 10vw;
@@ -153,4 +166,14 @@ h4 {
     position: relative;
     top: 7%;
     left: 25%;
+    align-content: center;
+}
+
+#dino4 {
+    width: 25vw;
+    height: 20vw;
+    background-size: cover;
+    position: relative;
+    top: 7%;
+    left: 32%;
 }
