@@ -55,6 +55,7 @@ nav[role="navbar"] ul li a {
     font-size: 23px;
     padding: 2vw 1vw;
     text-transform: uppercase;
+    text-decoration-line: none;
 }
 a:hover {
     color: #ffffff;
