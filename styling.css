@@ -374,7 +374,28 @@ a:hover {
     #check:checked ~ ul {
         left: 0;
     }
+    nav[role="third"] a {
+        font-family: 'VT323', monospace;
+        color: #e6e617;
+        text-shadow: 2px 2px 1px #e013a0;
+        font-weight: 1;
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration-line: none;
+    }
+    nav[role="third"] a:hover {
+        font-family: 'VT323', monospace;
+        color: #e6e617;
+        text-shadow: 2px 2px 1px #e013a0;
+        font-weight: 1;
+        font-size: 1.7vw;
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration-line: none;
+    }
     footer {
+        padding-top: 15vw;
         word-spacing: 1vw;
         text-align: center;
         right: 0;

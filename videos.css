@@ -76,9 +76,13 @@ footer {
     font-style: normal;
 }
 
+<<<<<<< HEAD
 /*ARCADE CSS STARTER*/
 
-img {
+=======
+
+/*ARCADE CSS*/
+> > > > > > > origin/master img {
     width: 100%;
 }
 
@@ -103,7 +107,7 @@ body {
 
 h1 {
     text-align: center;
-    font-family: bignoodletitlingregular, sans-serif;
+    font-family: 'VT323', monospace;
     font-size: 5rem;
     margin: 0;
     color: #fef502;
@@ -113,14 +117,13 @@ h1 {
 
 h2 {
     font-family: 'VT323', monospace;
-    position: relative;
     text-decoration-line: none;
     display: flex;
     float: none;
     justify-content: center;
     font-size: 10vw;
     color: #e013a0;
-    text-shadow: 2px 2px 1px #ffffff;
+    text-shadow: 2px 2px 1px #000000;
     font-weight: 1;
     text-align: center;
 }
