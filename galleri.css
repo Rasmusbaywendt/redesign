@@ -103,7 +103,7 @@ h1 {
 .drage_ild {
     width: 17vw;
     height: 20vw;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     top: 88%;
     left: 23%;
