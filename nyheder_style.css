@@ -6,6 +6,13 @@ img {
         max-width: 1200px;
         margin: auto;
     }
+    h1 {
+        text-align: center;
+        font-family: bignoodletitlingregular, sans-serif;
+        font-size: 10rem;
+        margin: 0;
+        color: #fef502;
+    }
     h2 {
         text-align: center;
         font-family: fleisch-wolf, sans-serif;
@@ -16,11 +23,13 @@ img {
     }
     #first_h1 {
         display: grid;
-        grid-template-columns: repeat( 5, 1fr);
+        grid-template-columns: 1fr 8fr 1fr;
+        margin: auto;
+        width: 50%;
     }
     #first_h1 h1 {
         grid-column-start: 2;
-        grid-column-end: 5;
+        grid-column-end: 3;
     }
     #first_h2 {
         display: grid;
@@ -49,81 +58,81 @@ img {
         font-weight: normal;
         font-style: normal;
     }
-}
-#billede_kolonne {
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-    margin: auto;
-}
-.butik1 {
-    display: block;
-    margin-top: 0.5vw;
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 5px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-.butik2 {
-    display: block;
-    margin-top: 0.5vw;
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 5px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-.butik3 {
-    display: block;
-    margin-top: 0.5vw;
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 5px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-.butik4 {
-    display: block;
-    margin-top: 0.5vw;
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 5px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-.ild1 {
-    display: block;
-    margin-top: 0.5vw;
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 5px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-.ild2 {
-    display: block;
-    margin-top: 0.5vw;
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 5px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-.ild3 {
-    display: block;
-    margin-top: 0.5vw;
-    width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 5px;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    #billede_kolonne {
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        margin: auto;
+    }
+    .butik1 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .butik2 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .butik3 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .butik4 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .ild1 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .ild2 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .ild3 {
+        display: block;
+        margin-top: 0.5vw;
+        width: 74%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 5px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
 }
 
 /*

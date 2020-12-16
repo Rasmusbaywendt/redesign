@@ -17,6 +17,16 @@ img {
         margin: 0;
         color: #fef502;
     }
+    #first_h1 {
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        margin: auto;
+        width: 50%;
+    }
+    #first_h1 h1 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
     h2 {
         text-align: center;
         font-family: fleisch-wolf, sans-serif;
@@ -286,7 +296,7 @@ a:hover {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 }
-@media (max-width: 915px) {
+@media (max-width: 940px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -295,7 +305,7 @@ a:hover {
         font-size: 16px;
     }
 }
-@media (max-width: 725px) {
+@media (max-width: 750px) {
     .checkbtn {
         display: block;
     }
